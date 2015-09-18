@@ -28,3 +28,4 @@ def RCtime (RCpin):
 # Main loop
 while True:
   print RCtime(4) # Measure timing using GPIO4
+
