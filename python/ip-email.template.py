@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # modified from http://elinux.org/RPi_Email_IP_On_Boot_Debian
 # modified from Don Southard
+
 import subprocess
 import smtplib
 import socket
@@ -8,16 +9,18 @@ import time
 from email.mime.text import MIMEText
 import datetime
 import urllib2
+
 # Change to your own account information
-to = ‘xxxxxx@newschool.edu'
-gmail_user = ‘xxxxxx@newschool.edu'
-gmail_password = ‘xxxx’
+to = "XXXXXX" # destination email address here
+gmail_user = "XXXXXX" # enter gmail unsername here
+gmail_password = "XXXXXX" # enter gmail password here
 smtpserver = smtplib.SMTP('smtp.gmail.com', 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 smtpserver.ehlo
 smtpserver.login(gmail_user, gmail_password)
 today = datetime.date.today()
+
 # Very Linux Specific
 arg='ip route list'
 p=subprocess.Popen(arg,shell=True,stdout=subprocess.PIPE)
@@ -27,6 +30,7 @@ ipaddr = split_data[split_data.index('src')+1]
 extipaddr = urllib2.urlopen("http://icanhazip.com").read()
 my_ip = 'Local address: %s\nExternal address: %s' %  (ipaddr, extipaddr)
 msg = MIMEText(my_ip)
+
 msg['Subject'] = 'IP For RaspberryPi on %s' % today.strftime('%b %d %Y')
 msg['From'] = gmail_user
 msg['To'] = to

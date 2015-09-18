@@ -7,6 +7,8 @@
 
 # Author: Adam McBride
 # with code from Ayo Okunseinde
+# with code modified from http://elinux.org/RPi_Email_IP_On_Boot_Debian
+# with code modified from Don Southard
 
 
 import feedparser		# imports feedparser to parse XML feed

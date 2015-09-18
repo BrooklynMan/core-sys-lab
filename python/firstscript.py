@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 while True:
 	x=int(raw_input("Enter a number: "))
 
