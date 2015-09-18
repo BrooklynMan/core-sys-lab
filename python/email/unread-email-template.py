@@ -20,7 +20,7 @@ import smtplib							# imports the SMTP library
 import socket							# imports the socket functions
 
 user = 'XXXXXXX'		# gmail username
-passwd = 'XXXXXXX'				# gmail password
+passwd = 'XXXXXXX'		# gmail password
 repeatdelay = 60		# the delay, in seconds, between each check
 loopcount = 0			# the number of times this script has looped on each execution
 sendreport = "yes"		# toggle for sending and email report
