@@ -1,3 +1,6 @@
+// Author: Adam McBride
+// with code from Ayo Okunseinde
+
 var gpio = require('rpi-gpio');
 
 function write() {

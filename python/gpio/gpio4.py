@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Author: Adam McBride
+# with code from Ayo Okunseinde
+
 ##DEBOUNCE UP DOWN
 import RPi.GPIO as GPIO
 import time

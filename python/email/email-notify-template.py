@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Author: Adam McBride
+# with code from Ayo Okunseinde
+
 import feedparser
 import time
 

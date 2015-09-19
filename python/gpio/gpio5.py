@@ -2,6 +2,9 @@
 # Reading an analogue sensor with
 # a single GPIO pin
 
+# Author: Adam McBride
+# with code from Ayo Okunseinde
+
 print ("RC time")
 import RPi.GPIO as GPIO, time
 

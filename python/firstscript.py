@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+# Author: Adam McBride
+# with code from Ayo Okunseinde
+
 while True:
 	x=int(raw_input("Enter a number: "))
 
