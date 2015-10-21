@@ -8,4 +8,5 @@ created by adam mcbride
 languages:
 
 - python
-- javascript (node.js)
+- javascript (node.js, p5js)
+- processing (c++)
