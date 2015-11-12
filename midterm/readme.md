@@ -19,8 +19,11 @@ By optimizing this task, time can be saved, frustration avoided, and pollution r
 ### ROADBLOCKS
 
 Initial Cost – reduction to essential technological elements – I would be limited to producing a high-resolution prototype.
+
 Theft – Out-of-reach placement. Went with a conspicuous placement and appearance, making the device a beacon showing parking space availability
+
 Loss of Signal or Power – In a controlled commercial environment, support hardware would be an option for a final product. The prototype can use improvised solutions. Both would use hard-line power. Possible Ethernet over Power.
+
 The initial development tech is expensive and unrefined for this application. The final product would have to be manufactured to spec. This would necessitate a high start-up production cost. For the scope of this project, I will be producing high-resolution prototype hardware and control and reporting software.
 
 ### RESEARCH
@@ -28,10 +31,12 @@ The initial development tech is expensive and unrefined for this application. Th
 #### COMPETING SOLUTIONS
 
 Current technologies are geared towards mid- to large-scale commercial applications or rely on crowd-sourced reporting which is ineffective unless widely and frequently used. Only focus on facilities themselves, not individual spaces.
-Current option over-complicate with technologies with GPS and other tech that wouldn’t be necessary, as the location of the parking space and monitoring device are known and can be relayed via availability boards at entrances and on each parking level.
-Crowd-sourced reporting and GPS-enabled tracking present dangers in distraction from phones while operating a vehicle and looking for parking, plus phone and GPS signal are limited in parking structures.
+
+Current option over-complicate with technologies with GPS and other tech that wouldn’t be necessary, as the location of the parking space and monitoring device are known and can be relayed via a crowd-sourced reporting and GPS-enabled tracking present dangers in distraction from phones while operating a vehicle and looking for parking, plus phone and GPS signal are limited in parking structures.
+
 Current solutions for parking structures require massive investments in installation, and require instillation within the asphalt or concrete of the structure for equipment and reporting systems.
-USER NEEDS
+
+#### USER NEEDS
 
 Users want to be able to pull into a parking structure and be told where an empty space is.
 Users have difficulty finding an empty space from a distance, even if they know an empty space is nearby.
@@ -39,7 +44,7 @@ Site operators would like more granular air quality data in order to optimize ai
 
 #### AIR QUALITY REGULATIONS
 
-co-regulationsUnderground parking Garages have to use complicated monitoring and ventilations systems (HVAC) with baffling to maintain air quality. Many use no monitoring at all, and have to constantly ventilate, using massive amounts of power.
+Underground parking Garages have to use complicated monitoring and ventilations systems (HVAC) with baffling to maintain air quality. Many use no monitoring at all, and have to constantly ventilate, using massive amounts of power.
 
 These parking monitors would allow for more accurate per-zone monitoring of CO levels and allow for more efficient use of HVAC systems, reducing power usage and environmental impact.
 
