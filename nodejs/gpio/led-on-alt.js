@@ -4,11 +4,11 @@
 var gpio = require('rpi-gpio');
 
 function write() {
-    gpio.write(11, true, function(err) {
+    gpio.write(23, true, function(err) {
         if (err) throw err;
         console.log('Written to pin');
     });
 }
 
-gpio.setup(11, gpio.DIR_OUT, write);
+gpio.setup(23, gpio.DIR_OUT, write);
 
