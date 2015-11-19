@@ -1,9 +1,16 @@
+// Learning Processing
+// Daniel Shiffman
+// http://www.learningprocessing.com
+
+// Example 1-1: stroke and fill
+
 function setup() {
-  // uncomment this line to make the canvas the full size of the window
-  // createCanvas(windowWidth, windowHeight);
+  createCanvas(480, 270);
+  stroke(0); 
+  fill(150);
 }
 
 function draw() {
-  // draw stuff here
-  // ellipse(width/2, height/2, 50, 50);
+  background(255);
+  rect(50,50,75,100);
 }

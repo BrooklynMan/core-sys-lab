@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Homework 10</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <script src="//10.0.1.12:8000/socket.io/socket.io.js" type="text/javascript"></script>
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+  <body>
+    <script>
+    var socket;
+    var url='10.0.1.12';
+    var port=8000
+    socket = io.connect(url+':'+port);//create instance of socket io
+
+    socket.on('serialText', function (data) { //listen for toScreen fron socket 
+      s=data.s;
+    });
+
+    function bumpLeft(){
+      socket.emit('bumpLeft', { l: "left", s: "you bumped left object" });//emit js object with given value
+      console.log("you bumped left object");
+    }
+
+    function bumpRight(){
+      socket.emit('bumpRight', { r: "right", s: "you bumped right object" });//emit js object with given value
+      console.log("you bumped right object");
+    }
+
+    </script>
+</body>
+</html>
