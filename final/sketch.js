@@ -1,19 +1,24 @@
-var block1;
-var block2;
-var block3;
-var block4;
-var block5;
+var grass1;
+var grass2;
+var grass3;
+var grass4;
+var grass5;
 
-var circle1;
-var circle2;
-var circle3;
+var lamp1;
+var lamp2;
+var lamp3;
+var lamp4;
+var lamp5;
+
+var statue1;
+var statue2;
 
 var player;
 
 function setup() {
   createCanvas(650, 750);  // sets up canvas
   strokeWeight(1);
-  	rectMode(CENTER);
+  	rectMode(LEFT);
 }
 
 
@@ -21,16 +26,22 @@ function draw() {
 	background(200);
 	
 	fill(126,211,23);
-	block1 = rect(340, 75, 400, 75);
-	block2 = rect(340, 250, 400, 200);
-	block3 = rect(178, 500, 75, 200);
-	block4 = rect(342, 500, 100, 200);
-	block5 = rect(502, 500, 75, 200);
+	grass1 = rect(25, 25, 600, 75);
+	grass2 = rect(75, 150, 500, 200);
+
+	grass3 = rect(50, 400, 150, 220);
+	grass4 = rect(249, 400, 150, 200);
+	grass5 = rect(450, 400, 150, 220);
 
 	fill(150);
-	circle1 = ellipse(178, 670, 50, 50);
-	circle2 = ellipse(340, 700, 50, 50);
-	circle3 = ellipse(502, 670, 50, 50);
+	lamp1 = ellipse(60, 660, 30, 30);
+	lamp2 = ellipse(192, 700, 30, 30);
+	lamp3 = ellipse(325, 720, 30, 30);
+	lamp4 = ellipse(458, 700, 30, 30);
+	lamp5 = ellipse(590, 660, 30, 30);
+
+	statue1 = ellipse(325, 250, 50, 50);
+	statue2 = ellipse(325, 595, 75, 100);
 
 	fill(255,204,51);
 	player = ellipse(mouseX, mouseY, 20, 20);
