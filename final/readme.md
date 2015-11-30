@@ -1,4 +1,20 @@
+# CORE SYSTEMS: FINAL PROJECT UPDATE
+
+*Posted on November 29, 2015*
+
+## PROGRESS SO FAR
+
+I’ve managed to create the code for two basic park maps: one of Union Sq Park and one of Washington Sq Park. They’re both very rough and need some work, but I’m trying to focus right now on the generation of multiple game objects and having different types of interaction. I’m getting confused with the creation and management of classes, and need to consult wit Ayo for some help before I proceed further.
+
+- [Union Sq Park Map](https://designerstory.files.wordpress.com/2015/11/screen-shot-2015-11-29-at-9-21-51-pm.png?w=700&h=&crop=1)
+- [Washington Sq Park Map](https://designerstory.files.wordpress.com/2015/11/screen-shot-2015-11-29-at-8-27-41-pm.png?w=1200&h=&crop=1)
+
+<hr /><hr />
+
 # CORE SYSTEMS: FINAL PROJECT PROPOSAL
+
+*Posted on November 29, 2015*
+
 ## GENERAL INQUIRY 
 
 For this project, I plan to explore this issue of homelessness, specifically in New York City. I plan to create an interactive installation which draws attention to the problems each homeless person faces not only living each day without shelter or a job, but which draws particular attention to the frustrating and, in many cases, near-impossible hurdles that are required for one to overcome in order to escape homelessness, even when receiving institutional assistance/aid.
