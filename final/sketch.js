@@ -18,18 +18,21 @@ function setup() {
 
 
 function draw() {
-	background(126,211,23);
+	background(200);
 	
-	fill(200);
-	block1 = rect(350, 75, 350, 75);
-	block2 = rect(350, 250, 350, 200);
-	block3 = rect(213, 500, 75, 200);
-	block4 = rect(352, 500, 75, 200);
-	block5 = rect(487, 500, 75, 200);
-	circle1 = ellipse(212, 670, 50, 50);
-	circle2 = ellipse(350, 700, 50, 50);
-	circle3 = ellipse(490, 670, 50, 50);
+	fill(126,211,23);
+	block1 = rect(340, 75, 400, 75);
+	block2 = rect(340, 250, 400, 200);
+	block3 = rect(178, 500, 75, 200);
+	block4 = rect(342, 500, 100, 200);
+	block5 = rect(502, 500, 75, 200);
 
+	fill(150);
+	circle1 = ellipse(178, 670, 50, 50);
+	circle2 = ellipse(340, 700, 50, 50);
+	circle3 = ellipse(502, 670, 50, 50);
+
+	fill(255,204,51);
 	player = ellipse(mouseX, mouseY, 20, 20);
 
 	// if(mouseX>(250-20)&mouseX<(250+20)&
