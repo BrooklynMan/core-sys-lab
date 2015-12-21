@@ -1,41 +1,58 @@
-var block1;
-var block2;
-var block3;
-var block4;
-var block5;
+// Final project for Adam McBride
+// Core: Networks & Systems
+// Fall 2015
 
-var circle1;
-var circle2;
-var circle3;
+// variable declarations
+var bg;
 
-var player;
+var point1;
+var point2;
+var point3;
+// var point4;
+
+var distance1;
+var distance2;
+var distance3;
+// var distance4;
 
 function setup() {
-  createCanvas(650, 750);  // sets up canvas
-  strokeWeight(1);
-  	rectMode(CENTER);
-}
+    createCanvas(800, 480);
+    rectMode(LEFT);
 
+    // load background image
+    bg = loadImage("img/slide3.jpg");
+
+    // load popout images
+    popImg1 = loadImage("img/popout3-1.jpg");
+    popImg2 = loadImage("img/popout3-2.jpg");
+    popImg3 = loadImage("img/popout3-3.jpg");
+    // popImg4 = loadImage("img/popoutPlaceholder.jpg");
+};
 
 function draw() {
-	background(126,211,23);
-	
-	fill(200);
-	block1 = rect(350, 75, 350, 75);
-	block2 = rect(350, 250, 350, 200);
-	block3 = rect(213, 500, 75, 200);
-	block4 = rect(352, 500, 75, 200);
-	block5 = rect(487, 500, 75, 200);
-	circle1 = ellipse(212, 670, 50, 50);
-	circle2 = ellipse(350, 700, 50, 50);
-	circle3 = ellipse(490, 670, 50, 50);
+    background(bg);
 
-	player = ellipse(mouseX, mouseY, 20, 20);
+    // drawing the collision points
+    noFill();
+    point1 = ellipse(51, 147, 33, 33);
+    point2 = ellipse(51, 241, 33, 33);
+    point3 = ellipse(51, 334, 33, 33);
+    // point4 = ellipse(51, 428, 33, 33);
 
-	// if(mouseX>(250-20)&mouseX<(250+20)&
-	// 	mouseY>(250-20)&mouseY<(250+20) ){
-	// 	fill(255);
-	// }else{
-	// 	fill(126,211,23);
-	// };
+    // defining the distance points
+    distance1 = dist(51, 147, mouseX, mouseY);
+    distance2 = dist(51, 241, mouseX, mouseY);
+    distance3 = dist(51, 334, mouseX, mouseY);
+    // distance4 = dist(51, 428, mouseX, mouseY);
+
+    // detecting the collisions
+    if (distance1 <= 15) {
+        image(popImg1, 85, 20);
+    } else if (distance2 <= 15) {
+        image(popImg2, 85, 20);
+    } else if (distance3 <= 15) {
+        image(popImg3, 85, 20);
+    } // else if (distance4 <= 15) {
+    //     image(popImg4, 85, 20);
+    // }
 };

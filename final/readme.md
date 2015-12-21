@@ -1,3 +1,15 @@
+# CORE SYSTEMS: FINAL PROJECT COMPLETE
+
+*Posted on December 21, 2015*
+
+## A CHANGE IN DIRECTION
+
+I've decided to change direction away from creating a game. Instead, I have created an interactive educational interface which will lead the user through 5 slides, each with 3 popouts which expand on the concepts introduced in each slide. The popouts are triggered by collision detection, and are themselves image overlays within the canvas.
+
+This is the final version of the interface which will be submitted as my final project for Core: Netwroks & Systems for the Fall 2015 semester.
+
+<hr /><hr />
+
 # CORE SYSTEMS: FINAL PROJECT UPDATE
 
 *Posted on November 29, 2015*
@@ -15,7 +27,7 @@ I’ve managed to create the code for two basic park maps: one of Union Sq Park 
 
 *Posted on November 29, 2015*
 
-## GENERAL INQUIRY 
+## GENERAL INQUIRY
 
 For this project, I plan to explore this issue of homelessness, specifically in New York City. I plan to create an interactive installation which draws attention to the problems each homeless person faces not only living each day without shelter or a job, but which draws particular attention to the frustrating and, in many cases, near-impossible hurdles that are required for one to overcome in order to escape homelessness, even when receiving institutional assistance/aid.
 
@@ -43,9 +55,9 @@ This topic is one with prolific examples of prior attempt to draw attention to t
 ### EXAMPLE 2
 
 >Jani Leinonen, a conceptual artist originally from Finland, set up what looks like, from a distance, a fast food restaurant in Budapest, Hungary. Get closer to the sign, however, and you’ll see the Burger King logo actually says “Hunger King.”
-	
+
 >The interactive installation invites people to stand in one of two lines, “Rich” and “Poor.” People in the rich queue are handed phony burgers and fries, along with information about income equality to get them thinking about the homeless epidemic in their city. Meanwhile, people in the poor line receive fast food boxes filled with real money – the daily minimum wage, to be precise. Because of the element of charity, the artwork has attracted a lot of actual homeless people to participate.
-	
+
 >Though Leinonen is pleased with educating the populace about societal problems, he likes the added critique that the crowd itself generates. He points out that while homeless people are regularly forbidden from congregating on public streets and sidewalks, no one takes issue with people who block walkways for a consumerist pursuit like buying fast food.
 
 ### EXAMPLE 3
